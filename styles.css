@@ -1,0 +1,88 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blueviolet;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(90, 8, 243);
+    text-decoration: underline white;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  .name{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.ProfilePic{
+    height: 90%;
+    width: 90%;
+    border-radius: 5%;
+}
+h1{
+    font-size: 750%;
+    font-style: italic;
+}
+.td1{
+    height: 100%;
+    width: 50%;
+}
+.td2{
+    height: 100%;
+    width: 50%;
+}
+.MainPage, .hobbies, .achieve{
+    background-color: blueviolet;
+    color: white;
+    
+}
+/* skills part */
+h4{
+    font-size: 250%;
+    font-style: italic;
+}
+p{
+    font-size: 100%;
+    font-style: italic;
+}
+ 
+/* hobbies part */
+
+/* contact me part */
+button{
+  height: 40px;
+  width: 100px;
+  margin: 20px;
+  background-color: blueviolet;
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
+div a:hover {
+  background-color: rgb(90, 8, 243);
+  text-decoration: underline white;
+}
+
+
