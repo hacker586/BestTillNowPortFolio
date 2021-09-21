@@ -1,13 +1,14 @@
-ul {
+.header{
+  position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: blueviolet;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-  }
+    z-index: 10;
+}
   
   li {
     float: left;
@@ -17,7 +18,7 @@ ul {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 10px;
     text-decoration: none;
   }
   
@@ -27,7 +28,7 @@ ul {
   }
   
   .active {
-    background-color: #4CAF50;
+    background-color: blueviolet;
   }
   .name{
     display: block;
@@ -83,6 +84,28 @@ button{
 div a:hover {
   background-color: rgb(90, 8, 243);
   text-decoration: underline white;
+  border-radius: 20%;
 }
-
-
+/* animations */
+#image{
+  
+  position: relative;
+  animation-name: example1;
+  animation-duration: 2s;
+  /* animation-delay: 2s; */
+}
+@keyframes example1 {
+  0%   {left:-200px; top:0px;}
+  25%  { left:100px; top:0px;}
+  100% { left:0px; top:0px;}
+}
+#name{
+  position: relative;
+  animation-name: example2;
+  animation-duration: 2s;
+}
+@keyframes example2 {
+  0%   {left:-200px; top:0px;}
+  25%  { left:100px; top:0px;}
+  100% { left:0px; top:0px;}
+}

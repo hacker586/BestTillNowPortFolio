@@ -10,27 +10,27 @@
 </head>
 <body style="margin: 0%; text-align: center;">
     <div class="header">
-        
+        <ul style="list-style-type: none">
+            <li class="li" style="float: right; color: white; margin-right: 20px;">Sagar Bank's Resume</li>
+            <li class="li active"><a href="#home" onclick="myFunction()">Home</a></li>
+            <li class="li active"><a href="#skills" onclick="myFunction()">Skills</a></li>
+            <li class="li active"><a href="#hobbies" onclick="myFunction()">Hobbies</a></li>
+            <li class="li active"><a href="#contact" onclick="myFunction()">Contact Me</a></li>
+            <li class="li active"><a href="#acheive" onclick="myFunction()">Acheivements</a></li>
+          </ul>
       </div>
       
-      <ul>
-        <li class="name"  style="float: right;">Sagar Bank's Resume</li>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#hobbies">Hobbies</a></li>
-        <li><a href="#contact">Contact Me</a></li>
-        <li><a href="#acheive">Acheivements</a></li>
-      </ul>
+      
     <div class="MainPage" id="home" >
         <table>
             <tr>
-                <td class="td1">
+                <td class="td1" id="name">
                     <h1 class="h1">Sagar</h1>
                     <h1 class="h1">Srikanto </h1>
                     <h1 class="h1">Bank</h1>
                 </td>
-                <td class="td2">
-                    <img class="ProfilePic" src="Sagar.jpg" alt="Sagar Bank's image">
+                <td class="td2" id="image">
+                    <img class="ProfilePic" src="Sagar-min.jpg" alt="Sagar Bank's image">
                 </td>
             </tr>
         </table>
@@ -108,6 +108,7 @@
         <p>Web Developer Intern at Lets growMore<a href="https://letsgrowmore.in/"><button>Click here</button></a> </p>
         <p>More acheivements comming soon...</p>
     </div>
+    <script src="index.js"></script>
 </body>
 <!-- <footer style="height: 10px;"><p style="float: right; color: black;">@Sagar Bank 2021/20/09</p></footer> -->
 </html>
