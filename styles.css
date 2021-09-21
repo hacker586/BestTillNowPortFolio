@@ -87,25 +87,19 @@ div a:hover {
   border-radius: 20%;
 }
 /* animations */
-#image{
-  
-  position: relative;
-  animation-name: example1;
-  animation-duration: 2s;
-  /* animation-delay: 2s; */
-}
-@keyframes example1 {
-  0%   {left:-200px; top:0px;}
-  25%  { left:100px; top:0px;}
-  100% { left:0px; top:0px;}
-}
-#name{
+
+#name, #hobbie{
   position: relative;
   animation-name: example2;
   animation-duration: 2s;
+  animation-delay: 1s;
 }
 @keyframes example2 {
   0%   {left:-200px; top:0px;}
   25%  { left:100px; top:0px;}
   100% { left:0px; top:0px;}
+}
+a:hover {
+  animation-duration: 2s;
+  width: 150px;
 }
